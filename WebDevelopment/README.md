@@ -2,6 +2,6 @@
   - HTML5
   - CSS3
   - Bootstrap elements
-  - pictrues from Google
+  - Pictrues from Google
   - Responsive pages
   - Web accessibility
