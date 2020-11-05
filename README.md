@@ -1,5 +1,5 @@
 # ELTE_IK
-My university projects and my previous or sample exam solutions
+My university projects and my previous or sample exam solutions (the codes aren't refactored)
   - OOP (C++)
   - Imperative programming (C)
   - Programming languages (Java)
