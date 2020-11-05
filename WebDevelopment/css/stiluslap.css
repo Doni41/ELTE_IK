@@ -1,0 +1,990 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Általános beállítások*/
+
+h1 h2 h3 h4 h5 h6 div {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin-left: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+}
+
+h2 {
+  margin-left: 10px;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: left;
+}
+
+p {
+  margin-left: 15px;
+  font-size: 10pt;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: #FBF7EF;
+}
+
+.rejtett {position:absolute; left:-9999px;}
+
+
+/*Navbár tartalma - minden oldalon*/
+
+header nav {
+  background-color: #ddd;
+  margin-left: -20px;   
+  margin-right: -20px;
+  color:white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+header nav a:visited {
+  color: black;
+  background-color: yellow;
+}
+
+header nav li:hover {
+  /*background-color: white;*/
+  text-decoration: underline;
+}
+
+
+.kipozicional a {
+  position: absolute;
+  left: -9999px;
+}
+
+
+.kipozicional a:focus {
+  position: static;
+  background: white;
+}
+
+div#social {
+  text-align: right;
+  background-color: #ddd;
+  padding: 5px 5px 5px 10px;
+  border-top: 1px solid black;
+}
+
+.fa {
+  height: 50px;
+  padding: 20px;
+  margin: 0px 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+  
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+  
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.nav-link {
+  color:white;
+}
+
+/*Footer tartalma - Minden oldal*/
+
+footer  {
+  background-color: #ddd;
+  margin: auto;
+  margin-left: -20px;
+  margin-right: -20px;
+  color:white;
+  border: 1px solid black;
+}
+
+a:visited {
+  color:green;
+}
+
+footer a:visited {
+  color: black;
+  background-color: yellow;
+}
+
+footer div  {
+  padding-top: 0px;
+  padding-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:  30px;
+  border: 2px solid black;
+}
+
+div#footer-1 {
+  width: 250px;
+  border: 2px solid black;
+}
+
+div#footer-2 {
+  width: 250px;
+  border: 2px solid black;
+}
+
+div#footer-3 {
+  width: 250px;
+  border: 2px solid black;
+}
+
+div#footer-4 {
+  width: 250px;
+  border: 2px solid black;
+}
+
+div#footer-5 {
+  width: 250px;
+  border: 2px solid black;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+footer li {
+  color: white;
+}
+
+footer li:visited {
+  color: black;
+  background-color: yellow;
+}
+
+footer li:hover {
+  /*background-color: white;*/
+  text-decoration: underline;
+}
+
+/*Első oldal tartalma - Kezdőoldal*/
+
+    /*Első div*/
+    div#index-first {
+      color: black;
+      padding-bottom: 20px;
+      font-weight: bold;
+      background-color: #FBF7EF;
+    }
+
+    .img-fluid {
+      width: 100%;
+    }
+
+    .booking {
+      position: relative;
+      text-align: center;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .booking .btn {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .reservation-button {
+      color: white;
+    }
+
+    /*Második div*/
+    div#index-second {
+      color: black;
+      background-color: #FBF7EF;
+      padding-bottom: 20px; 
+    }
+
+    /*Harmadik div*/
+    div#index-third {
+      background-color: #FBF7EF;
+      padding-bottom: 20px;
+      color: black;
+      font-weight: bold;
+    }
+
+    .locations {
+      position: relative;
+      text-align: center;
+    }
+
+    .locations .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .locations .btn {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /*Neggyedik div*/
+    div#index-fourth {
+      background-color: #FBF7EF;
+      padding-bottom: 20px;
+      color: black;
+      font-weight: bold;
+    }
+
+    .helicopter {
+      position: relative;
+      text-align: center;
+    }
+
+    .helicopter .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .helicopter .btn {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /*Ötödik div*/
+    div#index-fifth {
+      background-color: #FBF7EF;
+      padding-bottom: 20px;
+      color: black;
+      font-weight: bold;
+    }
+
+    .freeride {
+      position: relative;
+      text-align: center;
+    }
+
+    .freeride .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .freeride .btn {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /*Alsó képsor*/
+    div#pictures {
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;    
+    }
+
+    div#pictures img {
+      height: 200px;
+    }
+
+
+
+
+
+/*Második oldal tartalma - Helyszínek*/
+
+    /*Első div*/
+
+    
+    div#location-first {
+      font-size: 22px;
+      color: black;
+      padding-bottom: 20px;
+      font-weight: bold;
+      background-color: #FBF7EF;
+      border-top: 1px solid black;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /*Második div*/
+
+    main {
+      background-color: #FBF7EF;
+    }
+
+    div#location-second {
+      padding: 0px;
+      margin: 0px;
+      color: black;
+      background-color: #FBF7EF;
+    }
+
+    /*Harmadik div*/
+
+    div#location-third {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    img#location-1 {
+      background-color: #FBF7EF;
+      padding: 20px;
+      width: 400px;
+      height: 250px;
+      /*float: left;*/
+    }
+
+    p#location-1 {
+      background-color: #FBF7EF;
+      display: inline-block;
+      margin-right: 50px;
+    }
+
+    /*Negyedik div*/
+
+    div#location-fourth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    img#location-2 {
+      background-color: #FBF7EF;
+      padding: 20px;
+      width: 400px;
+      height: 250px;
+      /*float: left;*/
+    }
+
+    p#location-2 {
+      
+      display: inline;
+    }
+
+    div#location-fifth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#location-sixth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#location-seventh {
+      padding: 20px;
+      margin: 20px;
+    }
+    
+    div#location-eigth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+
+
+
+
+
+/*Harmadik oldal tartalma - Helikopteres*/
+
+    /*Első div*/
+
+    .helicopter-intro {
+      padding: 20px;
+      margin: 20px;
+      background-color: #FBF7EF;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+
+    div#helicopter-fourth {
+      background-color: #FBF7EF;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .helicopter-picture {
+      background-color: #FBF7EF;
+      padding: 20px;
+      width: 250px;
+      height: 250px;
+    }
+
+    .helicopter-text {
+      background-color: #FBF7EF;
+      display: inline-block;
+      padding-left: 200px;
+    }
+    
+    div#helicopter-first {
+      font-size: 22px;
+      color: black;
+      padding-bottom: 20px;
+      font-weight: bold;
+      background-color: #FBF7EF;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .helicopter .btn {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    a#video-button {
+      color: white;
+    }
+
+    /*Második div*/
+
+    div#helicopter-second {
+      padding: 0px;
+      margin: 0px;
+      color: black;
+      background-color: #FBF7EF;
+    }
+
+    /*Harmadik div*/
+
+    div#helicopter-third {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    /*Negyedik div*/
+
+    div#helicopter-fourth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#helicopter-fifth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#helicopter-sixth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#helicopter-seventh {
+      padding: 20px;
+      margin: 20px;
+    }
+    
+    div#helicopter-eigth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+
+
+
+
+
+
+    /*Negyedik oldal tartalma - Freeride*/
+
+    /*Első div*/
+
+    .freeride-intro {
+      padding: 20px;
+      margin: 20px;
+      background-color: #FBF7EF;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+
+    div#freeride-fourth {
+      background-color: #FBF7EF;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .freeride-picture {
+      background-color: #FBF7EF;
+      padding: 20px;
+      width: 250px;
+      height: 250px;
+    }
+
+    .freeride-text {
+      background-color: #FBF7EF;
+      display: inline-block;
+      padding-left: 200px;
+    }
+    
+    div#freeride-first {
+      font-size: 22px;
+      color: black;
+      padding-bottom: 20px;
+      font-weight: bold;
+      background-color: #FBF7EF;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .freeride .btn {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    a#video-button {
+      color: white;
+    }
+
+    /*Második div*/
+
+    div#freeride-second {
+      padding: 0px;
+      margin: 0px;
+      color: black;
+      background-color: #FBF7EF;
+    }
+
+    /*Harmadik div*/
+
+    div#freeride-third {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    /*Negyedik div*/
+
+    div#freeride-fourth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#freeride-fifth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#freeride-sixth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#freeride-seventh {
+      padding: 20px;
+      margin: 20px;
+    }
+    
+    div#freeride-eigth {
+      padding: 20px;
+      margin: 20px;
+    }
+
+    div#freeride-seventh {
+      padding: 20px;
+      margin: 20px;
+    }
+
+
+
+
+
+
+/*Ötödik oldal tartalma - Árak*/
+
+    /*Első div*/
+
+    .textonpicture {
+      padding-top: 50px;
+    }
+
+    div#price-first {
+      font-size: 18pt;
+      color: black;
+      padding-bottom: 20px;
+      font-weight: bold;
+      background-color: #FBF7EF;
+    }
+
+    /*Második div*/
+
+    div#price-intro {
+      padding: 20px;
+      margin: 20px;
+      font-size: 20pt;
+      background-color: #FBF7EF;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    div#price-second {
+      margin: 20px;
+      padding-top: 20px;
+      border-top: 2px solid black;
+      background-color: #FBF7EF;
+    }
+
+    div#price-third {
+      margin: 20px;
+      padding-top: 20px;
+      border-top: 2px solid black;
+      background-color: #FBF7EF;
+    }
+
+    .price-picture {
+      margin: 20px;
+      padding-top: 100px;
+      width: 300px;
+      height: 300px;
+    }
+
+    div#price-about-1 {
+      margin: 20px;
+      padding-top: 20px;
+      border: 1px solid black;
+      background-color: #FBF7EF;
+    }
+
+    div#price-about-1 p {
+      margin: auto;
+    }
+
+    div#price-about-2 {
+      margin: 20px;
+      padding-top: 20px;
+      border: 1px solid black;
+      background-color: #FBF7EF;
+    }
+
+    div#price-about-2 p {
+      margin: auto;
+    }
+
+    div#price-about-3 {
+      margin: 20px;
+      padding-top: 20px;
+      border: 1px solid black;
+      background-color: #FBF7EF;
+    }
+
+    div#price-about-3 p {
+      margin: auto;
+    }
+
+    .price .btn {
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .prices {
+      margin: 20px;
+      padding: 20px;
+      width: 600px;
+      height: 400px;
+    }
+
+    table#prices-1 {
+      margin: 20px;
+      padding: 20px;
+      width: 600px;
+      height: 400px;
+    }
+
+    table#prices-2 {
+      margin: 20px;
+      padding: 20px;
+      width: 600px;
+      height: 400px;
+    }
+
+    table#prices-3 {
+      margin: 20px;
+      padding: 20px;
+      width: 600px;
+      height: 400px;
+    }
+
+    label.custom-control-label{
+      float: right;
+      width: calc(100%/3);
+      height: calc(100%/3);
+  }
+
+    input {
+      margin: auto;
+    }
+
+    .table-image {
+      vertical-align: middle;
+
+    }
+
+    .table-image {
+        vertical-align: middle;
+    }
+
+
+
+
+
+
+  /*Hatodik oldal tartalma - Foglalás*/  
+
+  div#statusbar {
+    
+    margin: auto;
+    height: 30px;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  form {
+    margin: 20px;
+  }
+
+  div#about-1 {
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 20px;
+  }
+
+  div#about-2 {
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin: 20px;
+  }
+
+  div#about-3 {
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin: 20px;
+  }
+
+  div#about-4 {
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin: 20px;
+  }
+
+  div#about-5{
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin: 20px;
+  }
+
+  button#submit {
+    margin: 20px 20px 20px 0px;
+  }
+
+  button#reset {
+    margin: 20px 20px 20px 0px;
+  }
+
+
+
+
+
+
+
+/*Hetedik oldal*/
+
+  div#connenction-1 {
+    border-bottom: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+  }
+
+  div#connections {
+    font-size: 1.5em;
+    background-color: #FBF7EF;
+  }
+
+  div#radio-1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  div#radion-2 {
+    margin-bottom: 20px;
+  }
+
+  div#checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  img#kapcsolat-1 {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    padding-top: 20px;
+  }
+
+  p.me-text {
+    font-size: 0.75em;
+    display: inline;
+    height: 60px;
+  }
+
+  img#kapcsolat-2 {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    padding-top: 20px;
+  }
+
+  img#kapcsolat-3 {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    padding-top: 20px;
+  }
+
+  div#connection-video {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .intro-story {
+    border-bottom: 1px solid black;
+  }
+
+  .people-2 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+
+
+
+
+
+  /*XHTML oldal*/
+
+
