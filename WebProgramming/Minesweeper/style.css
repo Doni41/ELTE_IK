@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+td, td > button {
+    width: 30px;
+    height: 30px;
+}
+
+td {
+    border: solid 1px black;
+    text-align: center;
+    font-family: Consolas, monospace;
+    font-weight: bold;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+
+

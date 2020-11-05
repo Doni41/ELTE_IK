@@ -1,0 +1,28 @@
+1. Allapot leirasa (amiket tarolni szeretnenk):
+
+    - Mezo:
+        - Akna-e
+        - van-e rajta zaszlo
+        - fel van-e mar fedve
+        - hany akna szomszedja van  
+        // alulrol kezoddik az epitkezes
+
+    - Tabla (mezok matrixa)
+
+2. Allapot megjelenitese:
+
+    - Alulrol felfele hogyan jelenik meg az allapot
+        - Egy darab mezo megjelenitese
+        - A tablazat egy soranak megjelenitese
+        - A tablazat egeszenek megjelenitese 
+
+3. Esemenyek kezelese 
+    - Uj jatek gomb lenyomasa -> parameterekkel egy uj jatek inditasa
+    - Bal gombbal tattintunk egy felfedetlen cellara
+        - Szam, akkor csak felfedjuk
+        - Ha akna, akkor vege a jateknak
+        - Ures, akkor felfedjuk az osszes szomszedos mezot (tudjuk roluk, hogy nem aknak)
+    - Jobb gombbal kattintunk egy felfedetlen cellara -> zaszlo/nem szaszlo
+    - Dupla gombos kattintas -> osszes nem zaszlo szomszedot felfedjuk
+
+
