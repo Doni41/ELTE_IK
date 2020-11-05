@@ -1,1 +1,5 @@
-Task: Implement a Set abstract data type in C++
+# Project2
+Tasks
+  - Read datas from .txt file  
+  - Implement an enumeration class
+  - Make unit tests and test cases (black box, grey box, white box)
