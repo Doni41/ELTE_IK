@@ -1,4 +1,5 @@
 # Web programming Curse
+The files may contain some bugs (I hope not)
   - JS
     - DOM elements
     - QuerySelectors
