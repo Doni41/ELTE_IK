@@ -6,4 +6,7 @@ My university projects and my previous or sample exam solutions (the codes aren'
   - Web development (HTML5 and CSS3)
   - Functional programming (Haskell)
   - Programming languages (Java)
+  - Cryptography (Python)
+  - Operating Systems (C)
+  - Programming Technologies (Java)
   
