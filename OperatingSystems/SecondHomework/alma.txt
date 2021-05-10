@@ -1,0 +1,12 @@
+Fist name: A , Last name: A , Birth year: 1996 , Phone number: 36209876309 , Paid: Yes , Vaccinated: No
+Fist name: B , Last name: B , Birth year: 1995 , Phone number: 36301234567 , Paid: No , Vaccinated: No
+Fist name: C , Last name: C , Birth year: 1997 , Phone number: 36709876300 , Paid: Yes , Vaccinated: No
+Fist name: D , Last name: D , Birth year: 1994 , Phone number: 36707654321 , Paid: No , Vaccinated: No
+Fist name: E , Last name: A , Birth year: 1998 , Phone number: 36209876309 , Paid: Yes , Vaccinated: No
+Fist name: F , Last name: B , Birth year: 1998 , Phone number: 36600034567 , Paid: No , Vaccinated: No
+Fist name: G , Last name: C , Birth year: 1993 , Phone number: 36601276300 , Paid: Yes , Vaccinated: No
+Fist name: H , Last name: D , Birth year: 1992 , Phone number: 36303354321 , Paid: No , Vaccinated: No
+Fist name: I , Last name: A , Birth year: 1991 , Phone number: 36708576309 , Paid: Yes , Vaccinated: No
+Fist name: J , Last name: B , Birth year: 1990 , Phone number: 36301234567 , Paid: No , Vaccinated: No
+Fist name: K , Last name: C , Birth year: 1995 , Phone number: 36703376300 , Paid: Yes , Vaccinated: No
+Fist name: L , Last name: D , Birth year: 1999 , Phone number: 36704454321 , Paid: No , Vaccinated: No
