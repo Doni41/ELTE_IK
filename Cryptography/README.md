@@ -1,1 +1,3 @@
-Cryptographic algorithms and fundamentals with python
+# Cryptography Curse
+  - Cryptographic algorithms  
+  - Cryptographic fundamentals
